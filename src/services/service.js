@@ -1,7 +1,11 @@
 const axios = require('axios');
 
+// const api = axios.create({
+// 	baseURL: 'http://localhost:5000',
+// 	timeout: 1000,
+// })
 const api = axios.create({
-	baseURL: 'http://localhost:5000',
+	baseURL: 'https://facial-streaming-peer-to-peer.herokuapp.com/',
 	timeout: 1000,
 })
 
