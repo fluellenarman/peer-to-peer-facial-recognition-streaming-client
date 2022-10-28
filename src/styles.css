@@ -1,0 +1,59 @@
+body {
+    background:
+    /* linear-gradient(
+      rgba(0, 0, 0, 0.3), 
+      rgba(0, 0, 0, 0.3)
+    ), */
+    
+    url(https://img.freepik.com/premium-vector/light-neumorphism-circle-background-three-dimensional-neumorphic-texture-wallpaper-neumorphism-vector-background-neumorphic-ui-ux-interface-design-vector-graphic-eps-10_564974-55.jpg?w=2000);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+/* 
+    width: 100vw;
+    height: 100vh; */
+}
+
+canvas {
+  position: absolute;
+}
+
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+.app {
+  text-align: center;
+}
+
+/* .display-flex {
+  display: flex;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.position-absolute {
+  position: absolute;
+} */
+
+.position-flex {
+  display: flex;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.position-absolute {
+  position: absolute
+}
